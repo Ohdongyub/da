@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프로젝트13 - 반응형 응용 슬라이드</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+<div id="Wrap">
+    <div id="top_pop">
+        <div class="pop_content">
+            <h3>JEWELLERY COLLECTION</h3>
+            <p>
+                모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.
+                <a href="#!">MORE</a>
+            </p>
+            <i class="xi-close"></i>
+        </div>  
+    </div>
+    <header id="Header">
+        <div class="container">
+            <h1><a href="index.html"><img src="./img/grafflogo.png" alt=""></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#!">디자인</a></li>
+                    <li><a href="#!">샷 컬렉션</a></li>
+                    <li><a href="#!">전시</a></li>
+                    <li><a href="#!">기타</a></li>
+                    <li><a href="#!">스페셜</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="sezrch">
+                <i class="xi-search"></i>
+            </div>
+        </div>
+    </header>
+    <section id="visual">
+        <div class="main_slider">
+            <figure class="main_time01">
+                <div class="txt">
+                    <h3>01 DESIGN GRAFFITI</h3>
+                    <p>
+                        그래피티는 '긁다'라는 뜻을 가진 그리스어라고 합니다. 그래피티 아트는 현재는 거리의 예술을 총체적으로 지칭하는 단어로 자리잡았습니다. 
+                    </p>
+                    <a href="#!">VIEW MORE</a>
+                </div>
+            </figure>
+            <figure class="main_time02">
+                <div class="txt">
+                    <h3>02 DESIGN HOUSE</h3>
+                    <p>
+                        모던하면서도 클래식한 디자인들을 완벽하게 표현한 디자인 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.
+                    </p>
+                    <a href="#!">VIEW MORE</a>
+                </div>
+            </figure>
+            <figure class="main_time03">
+                <div class="txt">
+                    <h3>03 DESIGN 夜景</h3>
+                    <p>
+                        야경(夜景)은 밤의 경치를 뜻하는 한자어다. 주경(晝景, 낮의 풍경)과는 또 다른 특색있는 아름다움을 자랑한다.
+                    </p>
+                    <a href="#!">VIEW MORE</a>
+                </div>
+            </figure>
+        </div>
+    </section>
+
+
+
+    <section id="content01">
+        <h2>DESIGN COLLECTIONS</h2>
+        <p>모던하면서도 클래식한 디자인들을 완벽하게 표현한 디자인 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.</p>
+        <div class="container">
+            <figure>
+                <div class="case">
+                    <img src="img/lesedilarona01.jpg" alt="">
+                </div>
+                <strong>Icon Round Diamond Engagement Ring</strong>
+                <a href="#!">more</a>
+            </figure>
+            <figure>
+                <div class="case">
+                    <img src="img/lesedilarona02.jpg" alt="">
+                </div>
+                <strong>Icon Round Diamond Engagement Ring</strong>
+                <a href="#!">more</a>
+            </figure>
+            <figure>
+                <div class="case">
+                    <img src="img/lesedilarona03.jpg" alt="">
+                </div>
+                <strong>Icon Round Diamond Engagement Ring</strong>
+                <a href="#!">more</a>
+            </figure>
+        </div>
+    </section>
+
+
+
+    <section id="content02">
+        <h2>DESIGN COLLECTION</h2>
+        <p>
+            모던하면서도 클래식한 디자인들을 완벽하게 표현한 디자인 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.
+        </p>
+        <a href="#!">MORE &nbsp;&nbsp;<i class="xi-arrow-right"></i></a>
+    </section>
+
+
+
+
+    <section id="content03">
+        <div class="container">
+            <figure>
+                <video class="movie01" src="./img/movie.mp4" loop controls></video>
+            </figure>
+            <div class="txt">
+                <h2>DESIGN COLLECTION</h2>
+                <p>
+                    모던하면서도 클래식한 디자인들을 완벽하게 표현한 디자인 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.
+                </p>
+                <div class="movie_btn">
+                    <i class="xi-play"></i> <i class="xi-pause"></i>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="content04">
+        <div id="Movie" class="player" data-property="{videoURL:'https://www.youtube.com/embed/W4Ou96H-cPc'}"></div>
+        <div class="txt">
+            <h2>DESIGN COLLECTION</h2>
+            <p>
+                모던하면서도 클래식한 디자인들을 완벽하게 표현한 디자인 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.
+            </p>
+            <a href="#!">MORE &nbsp;&nbsp;<i class="xi-arrow-right"></i></a>
+        </div>
+    </section>    
+
+
+
+    <section id="content05">
+        <h2>DESIGN COLLECTIONS</h2>
+        <p>모던하면서도 클래식한 디자인들을 완벽하게 표현한 디자인 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.</p>
+        <div class="container">
+            <figure>
+                <div class="case">
+                    <img src="img/lesedilarona01.jpg" alt="">
+                </div>
+                <strong>Icon Round Diamond Engagement Ring</strong>
+                <a href="#!">more</a>
+            </figure>
+            <figure>
+                <div class="case">
+                    <img src="img/lesedilarona02.jpg" alt="">
+                </div>
+                <strong>Icon Round Diamond Engagement Ring</strong>
+                <a href="#!">more</a>
+            </figure>
+            <figure>
+                <div class="case">
+                    <img src="img/lesedilarona03.jpg" alt="">
+                </div>
+                <strong>Icon Round Diamond Engagement Ring</strong>
+                <a href="#!">more</a>
+            </figure>
+            <figure>
+                <div class="case">
+                    <img src="img/lesedilarona04.jpg" alt="">
+                </div>
+                <strong>Icon Round Diamond Engagement Ring</strong>
+                <a href="#!">more</a>
+            </figure>
+            <figure>
+                <div class="case">
+                    <img src="img/lesedilarona05.jpg" alt="">
+                </div>
+                <strong>Icon Round Diamond Engagement Ring</strong>
+                <a href="#!">more</a>
+            </figure>
+            <figure>
+                <div class="case">
+                    <img src="img/lesedilarona06.jpg" alt="">
+                </div>
+                <strong>Icon Round Diamond Engagement Ring</strong>
+                <a href="#!">more</a>
+            </figure>
+        </div>
+    </section> 
+
+    <section id="content06">
+        <div class="container">
+            <div class="tab">
+                <ul class="tab_tit">
+                    <li class="on">News & notice</li>
+                    <li>Event</li>
+                    <li>Issue & doc</li>
+                </ul>
+                <div class="tab_con">
+                    <div class="on">
+                        <ul class="notice_list">
+                            <li><a href="#!">2021년도 뮤지엄 관람 자료</a><span>[2021.07.15]</span></li>
+                            <li><a href="#!">2021년도 전시 큐레이터 초빙</a><span>[2021.07.15]</span></li>
+                            <li><a href="#!">이건희 컬렉션 전시 시작 안내</a><span>[2021.07.15]</span></li>
+                            <li><a href="#!">2020년도 디자이너 안내자료</a><span>[2021.07.15]</span></li>
+                            <li><a href="#!">DESIGN CAMP 확인 절차</a><span>[2021.07.15]</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="notice_list">
+                            <li><a href="#!">디자이너 초청 강연 안내</a><span>[2021.07.15]</span></li>
+                            <li><a href="#!">2021년도 전시 큐레이터 초빙</a><span>[2021.07.15]</span></li>
+                            <li><a href="#!">이건희 컬렉션 전시 시작 안내</a><span>[2021.07.15]</span></li>
+                            <li><a href="#!">DESIGN CAMP 확인 절차</a><span>[2021.07.15]</span></li>
+                            <li><a href="#!">2021년도 뮤지엄 관람 자료</a><span>[2021.07.15]</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="notice_list">
+                            <li><a href="#!">2021년도 전시 큐레이터 초빙</a><span>[2021.07.15]</span></li>
+                            <li><a href="#!">2020학년도 UN/국제기구 인턴십 안내자료</a><span>[2021.07.15]</span></li>
+                            <li><a href="#!">디자이너 초청 강연 안내</a><span>[2021.07.15]</span></li>
+                            <li><a href="#!">2020년도 디자이너 안내자료</a><span>[2021.07.15]</span></li>
+                            <li><a href="#!">개인 신청서 작성용 양식 공지</a><span>[2021.07.15]</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <figure>
+                <img src="img/mainvisual03.jpg" alt="">
+            </figure>
+        </div>
+    </section>
+    
+
+    <footer id="Footer">
+        <div class="top">
+            <div class="container">
+                <ul class="info">
+                    <li><a href="#!">이용약관</a></li>
+                    <li><a href="#!">문의하기</a></li>
+                    <li class="bold"><a href="#!">개인정보 취급방침</a></li>
+                    <li><a href="#!">방문 예약하기</a></li>
+                    <li><a href="#!">가이드</a></li>
+                    <li><a href="#!">소개</a></li>
+                </ul>
+                <div class="sns">
+                    <a href="#!"><i class="xi-instagram"></i></a>
+                    <a href="#!"><i class="xi-kakaotalk"></i></a>
+                    <a href="#!"><i class="xi-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <div class="container">
+                <div class="address">
+                    전화번호 : + 82 (1) 00 00 00 00
+                    Seoul Korea Lorem Ipsum
+                </div>
+                <div class="link">
+                    <select>
+                        <option value="">family link</option>
+                        <option value="http://naver.com">Busan</option>
+                        <option value="http://naver.com">Seoul</option>
+                        <option value="http://naver.com">Naver</option>
+                    </select>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+    <!--팝   업-->
+    <div id="popup">
+        <!-- <video src="./img/movie.mp4" autoplay muted loop></video> -->
+        <img src="img/mainvisual01.jpg" alt="">
+        <div class="txt">
+            <h2>DESIGN COLLECTION</h2>
+            <p>
+                모던하면서도 클래식한 디자인들을 완벽하게 표현한 디자인 컬렉션은 <br>
+                다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.
+            </p>
+            <a href="#!">close &nbsp;&nbsp;<i class="xi-close"></i></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
